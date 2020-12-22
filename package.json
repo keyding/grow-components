@@ -1,0 +1,15 @@
+{
+  "name": "grow-components",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "lerna": "lerna",
+    "bootstrap:china": "lerna bootstrap --registry=https://registry.npm.taobao.org",
+    "clean": "lerna clean"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
