@@ -8,7 +8,7 @@
 yarn add @grow-components/flex-scroll (npm i @grow-components/flex-scroll)
 ```
 
-### 使用
+## 使用
 
 `VScroll.vue`
 

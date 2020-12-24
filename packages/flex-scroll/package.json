@@ -24,6 +24,19 @@
     "build": "vue-cli-service build --target lib --name flex-scroll --dest lib src/components/FlexScroll.vue",
     "lint": "vue-cli-service lint"
   },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keyding/grow-components"
+  },
+  "bundlesize": [
+    {
+      "path": "./lib/flex-scroll.min.js",
+      "maxSize": "19 kB"
+    }
+  ],
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
@@ -42,9 +55,6 @@
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
-  },
-  "publishConfig": {
-    "access": "public"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
